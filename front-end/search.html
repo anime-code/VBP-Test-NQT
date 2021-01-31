@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tìm việc làm mới nhất, tuyển mới nhất</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/search.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light   pt-0 pb-0 justify-content-center">
+            <div class="container">
+                <a class="navbar-brand me-5" href="#"><img src="./assets/images/logo/vpn-t-logo.jpeg" width="120" class="img-fluid" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                <div class="navbar-collapse collapse mr-3" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item px-2 ">
+                            <a class="nav-link active" aria-current="page" href="#">Về TopCV</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Mẫu CV</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Mẫu Cover Letter</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Việc làm</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Khám phá</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Công ty</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Tư vấn</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="#">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item px-2 btn-suport-2">
+                            <a href="#" class="text-center" target="_blank">
+                                <p class="fw-bold">NHÀ TUYỂN DỤNG</p>
+                                <p class="fw-normal">Đăng tuyển &amp; Tìm hồ sơ</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Sub Header -->
+    <section class="sub-menu">
+        <nav class="navbar navbar-expand-lg pb-0 navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">TÌm việc làm</a>
+                        <a class="nav-link" href="#">Việc làm Remote</a>
+                        <a class="nav-link" href="#">Việc làm top công ty</a>
+                        <a class="nav-link" href="#">Việc làm phù hợp</a>
+                        <a class="nav-link " href="#">Việc làm đã lưu</a>
+                        <a class="nav-link" href="#">Việc làm đã ứng tuyển</a>
+                        <a class="nav-link" href="#">Cài đặt gợi ý việc làm</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End Sub Header -->
+    <section class="main-content">
+        <!-- Search Job-->
+        <section class="search-job" style="background-color: #fff;">
+            <div class="container" style="background-color: #6c6f72;">
+                <div class="bg-box-search">
+                    <form action="" method="GET" class="form-search">
+
+                        <div class="row py-1">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="form-group col-sm-6 col-12 position-relative">
+                                        <span class="icon-input"><i class="fa fa-search"></i></span>
+                                        <input type="text" class="form-control input-custom" value="" placeholder="Tên công việc, vị trí bạn muốn ứng tuyển ...">
+                                    </div>
+                                    <div class="form-group col-sm-3 col-12 position-relative ">
+                                        <span class="icon-input"><i class="fa fa-map-marker"></i></span>
+                                        <select class="form-select input-custom " aria-label="Default select example">
+                                            <option selected>Tất cả địa điểm</option>
+                                            <option value="1">Bình Dương</option>
+                                            <option value="2">Bắc Ninh</option>
+                                            <option value="3">Đồng Nai</option>
+                                            <option value="3">Hưng Yên</option>
+                                         
+                                          </select>
+
+                                    </div>
+                                    <div class="form-group col-sm-3 col-12 position-relative ">
+                                        <span class="icon-input"><i class="fa fa-cogs"></i></span>
+                                        <select class="form-select input-custom " aria-label="Default select example">
+                                            <option selected>Tất cả Ngành nghề</option>
+                                            <option value="1">Bình Dương</option>
+                                            <option value="2">Bắc Ninh</option>
+                                            <option value="3">Đồng Nai</option>
+                                            <option value="3">Hưng Yên</option>
+                                         
+                                          </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2  form-group">
+
+                                <button type="submit" class=" btn btn-search-job col-sm-12 col-12">
+                                  <i class="fa fa-search"></i>
+                                  TÌM
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row py-1">
+                            <div class=" col-md-8 ">
+
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="d-flex justify-content-end">
+                                    <span id="btn-hidden-advanced-search" style="display: none; color: #fff;">
+                                        <i class="fa fa-angle-up"></i>
+                                        &nbsp;Ẩn tìm kiếm nâng cao
+                                        </span>
+                                    <span id="btn-show-advanced-search" style="display: inline;color: #fff;">
+                                            <i class="fa fa-angle-down"></i>
+                                            &nbsp;Chọn tìm kiếm nâng cao
+                                            </span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="advance-option" class="row py-1" style="display: none;">
+
+
+                            <div class="row pe-0">
+
+                                <div class="form-group col-sm-3 col-12 position-relative ">
+                                    <span class="icon-input "><i class="fa fa-money "></i></span>
+                                    <select class="form-select input-custom " aria-label="Default select example ">
+                                            <option selected>Tất cả mức lương</option>
+                                            <option value="1 ">Dưới 3 triệu </option>
+                                            <option value="2 ">3 - 5 triệu</option>
+                                            <option value="3 ">5 -7 triệu</option>
+                                            <option value="3 ">Trên 10 triệu</option>
+                                         
+                                          </select>
+
+                                </div>
+                                <div class="form-group col-sm-3 col-12 position-relative ">
+                                    <span class="icon-input "><i class="fa fa-briefcase "></i></span>
+                                    <select class="form-select input-custom " aria-label="Default select example ">
+                                            <option selected>Tất cả kinh nghiệm</option>
+                                            <option value="1 ">Chưa có kinh nghiệm</option>
+                                            <option value="2 ">Dưới 1 năm</option>
+                                            <option value="3 ">1 năm</option>
+                                            <option value="3 ">Trên 2 năm</option>
+                                         
+                                          </select>
+
+                                </div>
+                                <div class="form-group col-sm-3 col-12 position-relative ">
+                                    <span class="icon-input "><i class="fa fa-clock-o "></i></span>
+                                    <select class="form-select input-custom " aria-label="Default select example ">
+                                            <option selected>Tất cả loại hình</option>
+                                            <option value="1 ">Toàn thời gian</option>
+                                            <option value="2 ">Bán thời gian</option>
+                                            <option value="3 ">Thực tập</option>
+                                            <option value="3 ">Remote - Làm việc từ xa </option>
+                                         
+                                          </select>
+
+                                </div>
+                                <div class="form-group col-sm-3 col-12 position-relative ">
+                                    <span class="icon-input "><i class="fa fa-building-o "></i></span>
+                                    <select class="form-select input-custom " aria-label="Default select example ">
+                                            <option selected>Tất cả lĩnh vực công ty</option>
+                                            <option value="1 ">Agency</option>
+                                            <option value="2 ">Bán lẻ - Hàng tiêu dùng</option>
+                                            <option value="3 ">Bảo hiểm</option>
+                                            <option value="3 ">Bảo trì / Sửa chữa</option>
+                                         
+                                          </select>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End Search Job -->
+        <!-- Search Result -->
+        <section class="search-result mt-2 mb-5">
+            <div class="container">
+                <ul class="breadcrumb breadcrumb-custom">
+                    <li class="breadcrumb-item"><a class="fw-bold" href="#">Trang chủ</a></li>
+                    <li class="breadcrumb-item"><a href="#">Tìm việc làm mới nhất, tuyển mới nhất</a></li>
+                </ul>
+                <div class="result-job-count">
+                    <div class="bg-job-count">
+                        <div class="row">
+                            <div class="col-md-7 col-6">
+                                <h4 class="fw-bold">Tìm việc làm mới nhất</h4>
+                            </div>
+                            <div class="col-md-5 col-6 "><span class="fw-bold">16,386 </span>việc phù hợp</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- List Job Result -->
+                <div class="row ">
+                    <div class="col-md-9 col-sm-12 bg-white">
+                        <div class="box-list-job">
+                            <div class="list-job-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="">
+                                            <div class="company-logo text-center">
+                                                <img src="./assets/images/company/bibabibo.webp" alt="" width="80%" class="img-fluid p-3">
+                                            </div>
+                                        </a>
+                                        <div class="rate-star text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 pt-3">
+                                        <div class="title text-ellipsis">
+                                            <a href="#" target="_blank">
+                                                <span title="Nhân Viên Marketing Facebook Ads (Hà Nội - Hồ Chí Minh)"><strong class="fw-bold">
+                                                    Trưởng Nhóm Content Marketing (Thu Nhập 20-30 Triệu)</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="company text-ellipsis">
+                                            <a href="">
+                                                <span title="CÔNG TY CỔ PHẦN CEO VIỆT NAM HOLDING">
+                                                    Công ty TNHH Bibabo</span>
+                                            </a>
+                                        </div>
+                                        <div class="job-info text-ellipsis">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <a href="#" class="text-decoration-none"><span class="text-success" title="20-30 triệu"> <i class="fa fa-usd "></i> Đăng nhập để xem</span></a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Hà Nội">Khu vực: Hà Nội </span>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Cập nhật 1 phut trước">Cập nhật 1 phút trước </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="btn-save-job text-center my-5">
+                                            <a href="#">
+                                                <i class="fa fa-heart-o"></i> Lưu
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="box-list-job">
+                            <div class="list-job-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="">
+                                            <div class="company-logo text-center">
+                                                <img src="./assets/images/company/maxihub.webp" alt="" width="80%" class="img-fluid p-3">
+                                            </div>
+                                        </a>
+                                        <div class="rate-star text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 pt-3">
+                                        <div class="title text-ellipsis">
+                                            <a href="#" target="_blank">
+                                                <span title="Nhân Viên Marketing Facebook Ads (Hà Nội - Hồ Chí Minh)"><strong class="fw-bold">
+                                                    Hoá Nghiệm Viên 化驗操作員</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="company text-ellipsis">
+                                            <a href="">
+                                                <span title="CÔNG TY CỔ PHẦN CEO VIỆT NAM HOLDING">
+                                                    CÔNG TY TNHH MAXIHUB</span>
+                                            </a>
+                                        </div>
+                                        <div class="job-info text-ellipsis">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <a href="#" class="text-decoration-none"><span class="text-success" title="20-30 triệu"> <i class="fa fa-usd "></i> Đăng nhập để xem</span></a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Hà Nội">Khu vực: Hà Nội </span>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Cập nhật 1 phut trước">Cập nhật 1 phút trước </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="btn-save-job text-center my-5">
+                                            <a href="#">
+                                                <i class="fa fa-heart-o"></i> Lưu
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="box-list-job">
+                            <div class="list-job-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="">
+                                            <div class="company-logo text-center">
+                                                <img src="./assets/images/company/aia.webp" alt="" width="80%" class="img-fluid p-3">
+                                            </div>
+                                        </a>
+                                        <div class="rate-star text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 pt-3">
+                                        <div class="title text-ellipsis">
+                                            <a href="#" target="_blank">
+                                                <span title="Nhân Viên Marketing Facebook Ads (Hà Nội - Hồ Chí Minh)"><strong class="fw-bold">
+                                                    Chuyên Viên Tư Vấn Tài Chính Bảo Hiểm - Ngân Hàng Vpbank (Toàn Quốc)</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="company text-ellipsis">
+                                            <a href="">
+                                                <span title="CÔNG TY CỔ PHẦN CEO VIỆT NAM HOLDING">
+                                                    Công Ty TNHH Bảo Hiểm Nhân Thọ AIA (Việt Nam)</span>
+                                            </a>
+                                        </div>
+                                        <div class="job-info text-ellipsis">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <a href="#" class="text-decoration-none"><span class="text-success" title="20-30 triệu"> <i class="fa fa-usd "></i> Đăng nhập để xem</span></a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Hà Nội">Khu vực: Hà Nội </span>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Cập nhật 1 phut trước">Cập nhật 1 phút trước </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="btn-save-job text-center my-5">
+                                            <a href="#">
+                                                <i class="fa fa-heart-o"></i> Lưu
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="box-list-job">
+                            <div class="list-job-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="">
+                                            <div class="company-logo text-center">
+                                                <img src="./assets/images/company/bibabibo.webp" alt="" width="80%" class="img-fluid p-3">
+                                            </div>
+                                        </a>
+                                        <div class="rate-star text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 pt-3">
+                                        <div class="title text-ellipsis">
+                                            <a href="#" target="_blank">
+                                                <span title="Nhân Viên Marketing Facebook Ads (Hà Nội - Hồ Chí Minh)"><strong class="fw-bold">
+                                                    Trưởng Nhóm Content Marketing (Thu Nhập 20-30 Triệu)</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="company text-ellipsis">
+                                            <a href="">
+                                                <span title="CÔNG TY CỔ PHẦN CEO VIỆT NAM HOLDING">
+                                                    Công ty TNHH Bibabo</span>
+                                            </a>
+                                        </div>
+                                        <div class="job-info text-ellipsis">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <a href="#" class="text-decoration-none"><span class="text-success" title="20-30 triệu"> <i class="fa fa-usd "></i> Đăng nhập để xem</span></a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Hà Nội">Khu vực: Hà Nội </span>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Cập nhật 1 phut trước">Cập nhật 1 phút trước </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="btn-save-job text-center my-5">
+                                            <a href="#">
+                                                <i class="fa fa-heart-o"></i> Lưu
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="box-list-job">
+                            <div class="list-job-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="">
+                                            <div class="company-logo text-center">
+                                                <img src="./assets/images/company/maxihub.webp" alt="" width="80%" class="img-fluid p-3">
+                                            </div>
+                                        </a>
+                                        <div class="rate-star text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 pt-3">
+                                        <div class="title text-ellipsis">
+                                            <a href="#" target="_blank">
+                                                <span title="Nhân Viên Marketing Facebook Ads (Hà Nội - Hồ Chí Minh)"><strong class="fw-bold">
+                                                    Hoá Nghiệm Viên 化驗操作員</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="company text-ellipsis">
+                                            <a href="">
+                                                <span title="CÔNG TY CỔ PHẦN CEO VIỆT NAM HOLDING">
+                                                    CÔNG TY TNHH MAXIHUB</span>
+                                            </a>
+                                        </div>
+                                        <div class="job-info text-ellipsis">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <a href="#" class="text-decoration-none"><span class="text-success" title="20-30 triệu"> <i class="fa fa-usd "></i> Đăng nhập để xem</span></a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Hà Nội">Khu vực: Hà Nội </span>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Cập nhật 1 phut trước">Cập nhật 1 phút trước </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="btn-save-job text-center my-5">
+                                            <a href="#">
+                                                <i class="fa fa-heart-o"></i> Lưu
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="box-list-job">
+                            <div class="list-job-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="">
+                                            <div class="company-logo text-center">
+                                                <img src="./assets/images/company/aia.webp" alt="" width="80%" class="img-fluid p-3">
+                                            </div>
+                                        </a>
+                                        <div class="rate-star text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 pt-3">
+                                        <div class="title text-ellipsis">
+                                            <a href="#" target="_blank">
+                                                <span title="Nhân Viên Marketing Facebook Ads (Hà Nội - Hồ Chí Minh)"><strong class="fw-bold">
+                                                    Chuyên Viên Tư Vấn Tài Chính Bảo Hiểm - Ngân Hàng Vpbank (Toàn Quốc)</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="company text-ellipsis">
+                                            <a href="">
+                                                <span title="CÔNG TY CỔ PHẦN CEO VIỆT NAM HOLDING">
+                                                    Công Ty TNHH Bảo Hiểm Nhân Thọ AIA (Việt Nam)</span>
+                                            </a>
+                                        </div>
+                                        <div class="job-info text-ellipsis">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <a href="#" class="text-decoration-none"><span class="text-success" title="20-30 triệu"> <i class="fa fa-usd "></i> Đăng nhập để xem</span></a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Hà Nội">Khu vực: Hà Nội </span>
+                                                </div>
+                                                <div class="col-4">
+                                                    <span title="Cập nhật 1 phut trước">Cập nhật 1 phút trước </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="btn-save-job text-center my-5">
+                                            <a href="#">
+                                                <i class="fa fa-heart-o"></i> Lưu
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="paginate py-3">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 ">
+                        <div class="bg-white box-job-spotlight border">
+                            <h3 class="fs-5 text-center fw-bold border-bottom py-2"> Công ty nổi bật</h3>
+                            <div class="spotlight-company ">
+                                <div class="spotlight-image position-relative ">
+                                    <a href="#">
+                                        <div class="spotlight-cover">
+                                            <img src="./assets/images/company/fpt-cover.webp" alt="Công ty CP Hệ Thống Thông Tin FPT" class="img-fluid">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="spotlight-logo">
+                                            <div class="bg-logo">
+                                                <img src="./assets/images/company/cong-ty-cp-he-thong-thong-tin-fpt-5e588fcd0969d.jpg" alt="Công ty CP Hệ Thống Thông Tin FPT" class="img-fluid">
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="spotlight-info text-center border-bottom">
+                                    <a class="fw-bold text-uppercase " href="">Công ty CP Hệ Thống Thông Tin FPT</a>
+                                </div>
+                                <div class="spotlight-job border-bottom py-3">
+                                    <div class="row  text-center">
+                                        <div class="text-uppercase job-name py-2"><a href="#" target="_blank" class="text-decoration-none  text-dark">Kỹ Sư Triển Khai Hệ Thống</a></div>
+                                        <div class="col-6">
+                                            <a href="#" class="text-decoration-none text-dark"><span class="" title="20-30 triệu"> <i class="fa fa-usd text-success"></i> Thỏa thuận</span></a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="text-decoration-none text-dark"><span class="" title=""> <i class="fa fa-clock-o text-success"></i> 21/02/2021</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spotlight-job border-bottom py-3">
+                                    <div class="row  text-center">
+                                        <div class="text-uppercase job-name py-2"><a href="#" target="_blank" class="text-decoration-none  text-dark">LẬP TRÌNH VIÊN JAVA (FIS EGP)</a></div>
+                                        <div class="col-6">
+                                            <a href="#" class="text-decoration-none text-dark"><span class="" title="20-30 triệu"> <i class="fa fa-usd text-success"></i> Thỏa thuận</span></a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="text-decoration-none text-dark"><span class="" title=""> <i class="fa fa-clock-o text-success"></i> 18/02/2021</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spotlight-job-more text-center p-2">
+                                    <a href="" class="text-default text-decoration-none">Xem thêm <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End List Job Result -->
+            </div>
+
+        </section>
+        <!-- End Search Result -->
+
+    </section>
+    <!-- Footer -->
+    <footer>
+
+        <div class="container ">
+            <section class="main-footer ">
+                <div class="row ">
+                    <div class="col-sm-7 float-end box-left ">
+                        <div class="row ">
+                            <div class="col-md-4 col-sm-6 col-6 pt-4 ">
+                                <div class="title ">Ứng viên</div>
+                                <ul>
+                                    <li>
+                                        <a href="# ">Tìm việc làm</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Khóa học</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Trắc nghiệm MBTI</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Hướng dẫn viết CV</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Tư vấn sửa CV</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Thiết kế CV</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Dịch CV</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Bài viết tham khảo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6 pt-4 ">
+                                <div class="title ">Đối tác</div>
+                                <ul>
+                                    <li>
+                                        <a href="# ">Doanh nghiệp</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Trường đại học</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Các CLB, đoàn thể</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Edu2Review</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Gitiho</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">JAMJA.vn</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Mogi.vn</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Homedy.com</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Printgo.vn</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">ViecNgay.vn</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">TopHR.vn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6 pt-4 ">
+                                <div class="title ">Kết nối</div>
+                                <ul>
+                                    <li>
+                                        <a href="# "><span class="fa fa-facebook fs-3 p-2 "></span></a>
+                                        <a href="# "><span class="fa fa-twitter fs-3 p-2 "></span></a>
+                                        <a href="# "><span class="fa fa-instagram fs-3 p-2 "></span></a>
+                                        <a href="# "><span class="fa fa-youtube fs-3 p-2 "></span></a>
+                                    </li>
+                                    <li class="text-center ">
+                                        <img src="./assets/images/license/bct.webp " alt="bct " width="200px " class="img-fluid ">
+                                    </li>
+                                    <li class="text-center ">
+                                        <img src="./assets/images/license/_dmca_premi_badge_2.png " alt="bct " width="100px " class="img-fluid ">
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-5 float-start box-right ">
+                        <div class="row pt-4 ">
+                            <div class="col-12 mb-3 ">
+                                <a href=" "><img src="./assets/images/logo/vpn-t-logo.jpeg " alt="bct " width="100px " class="img-fluid " style="display: inline-block; "></a>
+                                <a href=" "><img src="./assets/images/license/logo-google-for-startup.webp " alt="logo-google-for-startup " class="img-fluid ms-3 "></a>
+                                <h5 class="fs-6 my-4 ">Ứng dụng TopCV <span class="text-light bg-danger p-1 rounded ">Mới</span></h5>
+                                <a href=" "><img src="./assets/images/icon/app-store.webp " width="120px " class="img-fluid " style="display: inline-block; "></a>
+                                <a href=" "><img src="./assets/images/icon/google-play.webp " width="120px " class="img-fluid "></a>
+                            </div>
+                            <div class="col-6 ">
+                                <ul>
+                                    <li>
+                                        <a href="# ">Giới thiệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Góc báo chí</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Tuyển dụng</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Liên hệ</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Hỏi đáp</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-6 ">
+                                <ul>
+                                    <li>
+                                        <a href="# ">Chính sách bảo mật</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Điều khoản dịch vụ</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Quy chế hoạt động</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <section class="footer-bottom ">
+            <div class="container ">
+                <ul class="footer-content ">
+                    <li>
+                        <a href="# ">cv là gì,</a>
+                    </li>
+                    <li>
+                        <a href="# ">mẫu cv tiếng anh,</a>
+                    </li>
+                    <li>
+                        <a href="# ">mẫu cv tiếng việt,</a>
+                    </li>
+                    <li>
+                        <a href="# ">tải mẫu sơ yếu lý lịch chuẩn miễn phí,</a>
+                    </li>
+                    <li>
+                        <a href="# ">tổng hợp CV tham khảo các nhóm ngành,</a>
+                    </li>
+                    <li>
+                        <a href="# ">tổng hợp CV tham khảo cho lập trình viên,</a>
+                    </li>
+                    <li>
+                        <a href="# ">giấy tờ thủ tục hồ sơ xin việc,</a>
+                    </li>
+                    <li>
+                        <a href="# ">mẫu đơn xin việc các nhóm ngành,</a>
+                    </li>
+                    <li>
+                        <a href="# ">mẫu đơn xin nghỉ phép,</a>
+                    </li>
+                    <li>
+                        <a href="# ">cách viết CV Ngành Kinh doanh/Bán hàng,</a>
+                    </li>
+                    <li>
+                        <a href="# ">cách viết CV Ngành Kế Toán/Kiểm Toán,</a>
+                    </li>
+                    <li>
+                        <a href="# ">cách viết CV Ngành Nhân Sự,</a>
+                    </li>
+                    <li>
+                        <a href="# ">cách viết CV xin Học bổng,</a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section class="footer-bottom ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <span>
+    © 2014 - 2021 Bản quyền thuộc về CTCP TopCV Việt Nam
+                        </span></div>
+                    <div class="col-md-6 "><span>Trụ sở HN: Tầng 03, Tòa nhà Goldseason, 47 Nguyễn Tuân, Thanh Xuân, Hà Nội
+                            TP HCM: Tòa nhà cao ốc Nam Giao 1, số 261 - 263 Phan Xích Long, Phường 2, Quận Phú Nhuận, TP Hồ Chí Minh</span></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+</body>
+<script src="./assets/js/jquery.min.js "></script>
+<script src="./assets/bootstrap/js/bootstrap.bundle.min.js "></script>
+<script src="./assets/bootstrap/js/popper.js "></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+<script>
+    var btnShow = document.getElementById('btn-show-advanced-search');
+    var btnHide = document.getElementById('btn-hidden-advanced-search');
+    var contentSearchAdvance = document.getElementById('advance-option');
+    btnShow.onclick = () => {
+        btnShow.style.display = 'none';
+        btnHide.style.display = 'inline';
+        contentSearchAdvance.style.display = 'block';
+    }
+    btnHide.onclick = () => {
+        btnShow.style.display = 'inline';
+        btnHide.style.display = 'none';
+        contentSearchAdvance.style.display = 'none';
+    }
+</script>
+
+</html>

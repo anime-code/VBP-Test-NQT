@@ -1,0 +1,106 @@
+ /* Seach Job css */
+ 
+ .breadcrumb-custom {
+     padding: 20px 0px;
+ }
+ 
+ .breadcrumb-custom a {
+     color: #666;
+     text-decoration: none;
+ }
+ 
+ .breadcrumb-custom a:hover {
+     color: #00b14f;
+     text-decoration: none;
+ }
+ 
+ .bg-job-count {
+     margin-bottom: 20px;
+     padding: 10px 20px;
+     background-color: #fff;
+ }
+ 
+ .box-list-job {
+     background-color: #fff;
+ }
+ 
+ .list-job-box {
+     border-bottom: 1px solid #dfdfdf;
+     background-color: #d8f1e3;
+ }
+ 
+ .list-job-box:hover {
+     border-bottom: 1px solid #dfdfdf;
+     background-color: #fff;
+ }
+ 
+ .btn-save-job a {
+     font-size: 13px;
+     text-decoration: none;
+     color: #666;
+ }
+ 
+ .btn-save-job a:hover {
+     font-size: 13px;
+     text-decoration: none;
+     color: #00b14f;
+ }
+ 
+ .paginate li {
+     background: #fff;
+ }
+ 
+ .paginate li:hover>a {
+     background: #e6ece9;
+ }
+ 
+ .paginate .active>a {
+     background: #00b14f !important;
+     border: 1px solid #00b14f !important;
+ }
+ 
+ .paginate li>a {
+     color: #000;
+ }
+ 
+ .paginate li>a:hover {
+     color: #000;
+ }
+ 
+ .spotlight-company {
+     background: #fff;
+     border: 0;
+     padding: 15px 15px 5px;
+ }
+ 
+ .spotlight-image .spotlight-logo .bg-logo {
+     width: 90px;
+     height: 90px;
+     background-color: #fff;
+     position: absolute;
+     bottom: -50px;
+     box-shadow: 0 0 1px 0 #b1b1d6;
+     padding: 2px;
+     left: 35%;
+     border-radius: 2px;
+     line-height: 86px;
+ }
+ 
+ .spotlight-info {
+     margin: 0 -15px 0;
+     padding: 70px 30px 10px;
+ }
+ 
+ .spotlight-info a {
+     color: #00b14f;
+     text-decoration: none;
+ }
+ 
+ .spotlight-job a {
+     font-size: 14px;
+ }
+ 
+ .job-name a:hover {
+     color: #00b14f !important;
+ }
+ /* End Seach Job css */

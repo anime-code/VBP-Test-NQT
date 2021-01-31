@@ -1,0 +1,130 @@
+    /* Job css */
+    
+    header {
+        background-color: #ffff;
+        border: 1px solid #eee;
+    }
+    
+    .btn-suport-2 {
+        line-height: 20px !important;
+        background-color: #324554;
+        outline: 1px solid #324554;
+    }
+    
+    .btn-suport-2:hover {
+        color: #fff !important;
+        background-color: #000;
+        outline: 1px solid #324554;
+    }
+    
+    .btn-suport-2 a {
+        color: #fff !important;
+        text-decoration: none;
+    }
+    
+    .btn-suport-2>a>p {
+        margin: 10px 0;
+    }
+    
+    .btn-suport-2>a:hover {
+        color: #fff !important;
+        margin: 10px 0;
+    }
+    
+    .sub-menu {
+        background-color: #ffff;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .sub-menu a {
+        text-decoration: none;
+        color: #666;
+        font-size: 14px;
+        height: 60px;
+        word-spacing: 1px;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        padding-top: 20px;
+        white-space: nowrap;
+    }
+    
+    .sub-menu a:hover {
+        background-color: #fff;
+        border-bottom: 1px solid #666;
+    }
+    
+    .sub-menu a:active {
+        border-bottom: 1px solid #666;
+    }
+    
+    .sub-menu li {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .sub-menu .navbar-light .navbar-nav .nav-link.active {
+        background-color: #fff;
+        border-bottom: 1px solid #00b14f;
+        color: #00b14f;
+        font-weight: 700;
+    }
+    
+    .search-job {
+        padding: 10px;
+        margin-top: 5px;
+        background-color: #212f3f;
+    }
+    
+    .bg-box-search {
+        padding: 10px 0;
+    }
+    
+    .bg-box-search h1 {
+        margin: 0;
+        font-size: 16px;
+        padding: 0;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    
+    .box-job-ceate span {
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .btn-search-job-2 {
+        color: #fff;
+        border-radius: 0;
+        height: 35px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #27b14f!important;
+    }
+    
+    .category-content a {
+        text-decoration: none;
+        color: #999;
+    }
+    
+    .category-content a:hover {
+        text-decoration: none;
+        color: #00b14f;
+    }
+    
+    .hotline {
+        padding: 60px 0;
+    }
+    
+    .hotline .hotline-info p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .hotline-info i {
+        color: #27b14f;
+        font-size: 25px;
+    }
+    /* End Job css */

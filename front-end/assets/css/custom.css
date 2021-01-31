@@ -1,7 +1,14 @@
+/* Author:NQT */
+
+
 /* HOME */
 
+.text-default {
+    color: #00b14f !important;
+}
+
 body {
-    background-color: #f5f8fa !important;
+    background-color: #929eaa17 !important;
     font-family: Arial, helvetica neue, Helvetica, sans-serif !important;
 }
 
@@ -22,15 +29,25 @@ header nav li>a:hover {
     color: #000 !important;
 }
 
+.nav-item {
+    line-height: 3;
+}
 
-/* .btn-suport {
-    line-height: 0;
+.nav-item:last-child {
+    line-height: 17px !important;
+}
+
+.btn-suport {
     text-align: center;
     background-color: #27b14f;
     height: auto;
     border-radius: 50px;
     padding: 10px;
-} */
+}
+
+.btn-suport p {
+    color: #fff;
+}
 
 .btn-suport a {
     color: #fff;
@@ -135,6 +152,22 @@ header nav li>a:hover {
     background-color: #ffff;
 }
 
+.custom-arrow-right {
+    background: #666;
+    padding: 6px;
+    border-radius: 50px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.custom-arrow-left {
+    background: #666;
+    padding: 6px;
+    border-radius: 50px;
+    color: #fff;
+    opacity: 0.8;
+}
+
 .list-jobs {
     padding: 20px 0;
 }
@@ -194,7 +227,7 @@ header nav li>a:hover {
 }
 
 .bg-list-job {
-    max-height: 500px;
+    max-height: 600px;
 }
 
 .attr-list-job .job-item {
@@ -313,9 +346,152 @@ header nav li>a:hover {
     background: #fff;
 }
 
-.enterprise .enterprise-img {
-    margin: 0 30px auto;
-    width: 65%;
+.enterprise-img {
+    max-height: 100%;
+    width: auto;
+}
+
+.company-icon {
+    padding-bottom: 30px;
+}
+
+.company-icon a {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: 25px auto 10px;
+    padding: 10px;
+}
+
+.feed-back {
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px 0;
+    background: url('../images/bg/bg_statistic.webp');
+}
+
+.feed-back .item {
+    background-color: #fff;
+    padding: 20px0px;
+    border-radius: 4px;
+    min-height: 200px;
+    box-shadow: 0 5px 25px 0 #ccc;
+    margin: 0 10px 30px 10px;
+    max-height: 200px;
+}
+
+.feed-back .item h5 {
+    color: #00b14f;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.feed-back .item span {
+    color: #999;
+    font-size: 14px;
+}
+
+.feed-back .item p {
+    color: #999;
+    font-size: 13px;
+}
+
+.achievement span {
+    color: #00b14f;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.achievement p {
+    margin-top: 15px;
+    padding: 0 30px;
+    color: #999;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    background-color: #fff;
+}
+
+.main-footer .box-left {
+    box-shadow: inset -30px 1px 30px -16px #eee;
+}
+
+.main-footer .box-left .title {
+    font-weight: bold;
+    margin: 10px 0 15px 0;
+    padding: 0 0 20px 0;
+    position: relative;
+}
+
+.main-footer .box-left .title::after {
+    content: " ";
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+
+.main-footer ul {
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+}
+
+.main-footer ul>li>a {
+    text-decoration: none;
+    color: #666;
+}
+
+.main-footer ul>li>a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-footer .box-right {
+    padding: 0 0 40px 40px;
+}
+
+.footer-bottom {
+    color: #666;
+    border-top: 1px solid #eee;
+    padding: 15px 0 5px 0;
+}
+
+.footer-bottom .footer-content {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-bottom .footer-content>li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.footer-bottom .footer-content>li>a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-bottom .footer-content>li>a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.box-job-ceate {
+    padding-top: 25px;
+}
+
+.employer {
+    padding: 60px 0;
+    background: #fff;
 }
 
 
