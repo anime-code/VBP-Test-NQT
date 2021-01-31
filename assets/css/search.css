@@ -1,25 +1,5 @@
  /* Seach Job css */
  
- .breadcrumb-custom {
-     padding: 20px 0px;
- }
- 
- .breadcrumb-custom a {
-     color: #666;
-     text-decoration: none;
- }
- 
- .breadcrumb-custom a:hover {
-     color: #00b14f;
-     text-decoration: none;
- }
- 
- .bg-job-count {
-     margin-bottom: 20px;
-     padding: 10px 20px;
-     background-color: #fff;
- }
- 
  .box-list-job {
      background-color: #fff;
  }
